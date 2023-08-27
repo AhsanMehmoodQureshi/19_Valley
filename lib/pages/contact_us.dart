@@ -252,7 +252,7 @@ class _ContactUsState extends State<ContactUs> {
   }
   Widget address(){
     return
-      Expanded(child: addressSetting('Address: 19Valley',Icon(Icons.home_filled,size: 22.sp,color: Colors.white,)));
+      Expanded(child: addressSetting('Address: 19Valley',Icon(Icons.location_on,size: 22.sp,color: Colors.white,)));
   }
 
   Future<void> sendEmail() async {
